@@ -1,7 +1,8 @@
 {
   "dependencies": {
-    "com.ishape.geometry": "file:/Users/nailsharipov/Projects/Unity/iShape/Geometry",
-    "com.ishape.triangulation": "file:/Users/nailsharipov/Projects/Unity/iShape/Triangulation",
+    "com.ishape.geometry": "https://github.com/iShapeUnity/Geometry.git",
+    "com.ishape.mesh2d": "https://github.com/iShapeUnity/Mesh2d.git",
+    "com.ishape.triangulation": "https://github.com/iShapeUnity/Triangulation.git",
     "com.unity.burst": "1.8.4",
     "com.unity.collab-proxy": "2.0.3",
     "com.unity.collections": "1.2.4",

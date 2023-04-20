@@ -1,23 +1,35 @@
 {
   "dependencies": {
     "com.ishape.geometry": {
-      "version": "file:/Users/nailsharipov/Projects/Unity/iShape/Geometry",
+      "version": "https://github.com/iShapeUnity/Geometry.git",
       "depth": 0,
-      "source": "local",
+      "source": "git",
       "dependencies": {
         "com.unity.mathematics": "1.2.6",
         "com.unity.collections": "1.2.4"
-      }
+      },
+      "hash": "baf0559e127539ac37dc2081f9f01414a1b293bf"
+    },
+    "com.ishape.mesh2d": {
+      "version": "https://github.com/iShapeUnity/Mesh2d.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.collections": "1.2.4"
+      },
+      "hash": "f8b559e6ffcf58ac56218161208d06a13ac6ebde"
     },
     "com.ishape.triangulation": {
-      "version": "file:/Users/nailsharipov/Projects/Unity/iShape/Triangulation",
+      "version": "https://github.com/iShapeUnity/Triangulation.git",
       "depth": 0,
-      "source": "local",
+      "source": "git",
       "dependencies": {
         "com.ishape.geometry": "0.0.3",
         "com.unity.mathematics": "1.2.6",
         "com.unity.collections": "1.2.4"
-      }
+      },
+      "hash": "87502a917b678d2d350cd502b12bea4af748140c"
     },
     "com.unity.burst": {
       "version": "1.8.4",
