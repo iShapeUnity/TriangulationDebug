@@ -6,9 +6,9 @@
       "source": "git",
       "dependencies": {
         "com.unity.mathematics": "1.2.6",
-        "com.unity.collections": "1.2.4"
+        "com.unity.collections": "2.1.4"
       },
-      "hash": "baf0559e127539ac37dc2081f9f01414a1b293bf"
+      "hash": "afaea824e6d7f7581f5e62d0a61419664253acbb"
     },
     "com.ishape.mesh2d": {
       "version": "https://github.com/iShapeUnity/Mesh2d.git",
@@ -16,20 +16,20 @@
       "source": "git",
       "dependencies": {
         "com.unity.mathematics": "1.2.6",
-        "com.unity.collections": "1.2.4"
+        "com.unity.collections": "2.1.4"
       },
-      "hash": "f8b559e6ffcf58ac56218161208d06a13ac6ebde"
+      "hash": "4513542358fb52445841eddfa45cae0aebe1bf15"
     },
     "com.ishape.triangulation": {
       "version": "https://github.com/iShapeUnity/Triangulation.git",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.ishape.geometry": "0.0.3",
+        "com.ishape.geometry": "0.0.4",
         "com.unity.mathematics": "1.2.6",
-        "com.unity.collections": "1.2.4"
+        "com.unity.collections": "2.1.4"
       },
-      "hash": "87502a917b678d2d350cd502b12bea4af748140c"
+      "hash": "f87172d500eaf36bc0b85102eaeafb84d2c4371e"
     },
     "com.unity.burst": {
       "version": "1.8.4",
@@ -41,19 +41,20 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
-      "version": "2.0.3",
+      "version": "2.0.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.collections": {
-      "version": "1.2.4",
-      "depth": 0,
+      "version": "2.1.4",
+      "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.burst": "1.6.6",
-        "com.unity.test-framework": "1.1.31"
+        "com.unity.burst": "1.8.4",
+        "com.unity.modules.unityanalytics": "1.0.0",
+        "com.unity.nuget.mono-cecil": "1.11.4"
       },
       "url": "https://packages.unity.com"
     },
@@ -65,7 +66,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "3.0.20",
+      "version": "3.0.21",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -74,7 +75,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.17",
+      "version": "2.0.18",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -85,6 +86,13 @@
     "com.unity.mathematics": {
       "version": "1.2.6",
       "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.mono-cecil": {
+      "version": "1.11.4",
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
