@@ -1,5 +1,4 @@
-﻿using iShape.Mesh2d;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using Unity.Collections;
 
