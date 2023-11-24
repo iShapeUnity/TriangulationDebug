@@ -465,6 +465,28 @@ namespace Source {
                     }
                 }
             },
+            new TestShape {
+                hull = new Vector2[] {
+                    new Vector2(-0.42f, -0.38f),
+                    new Vector2(-0.44f, -0.36f),
+                    new Vector2(-0.44f, -0.32f),
+                    new Vector2(-0.46f, -0.3f),
+                    new Vector2(-0.46f, -0.28f),
+                    new Vector2(-0.48f, -0.26f),
+                    new Vector2(-0.48f, -0.24f),
+                    new Vector2(-0.5f, -0.22f),
+                    new Vector2(-0.5f, -0.2f),
+                    new Vector2(-0.48f, -0.2f),
+                    new Vector2(-0.46f, -0.22f),
+                    new Vector2(-0.42f, -0.22f),
+                    new Vector2(-0.4f, -0.24f),
+                    new Vector2(-0.36f, -0.24f),
+                    new Vector2(-0.34f, -0.26f),
+                    new Vector2(-0.34f, -0.28f),
+                    new Vector2(-0.38f, -0.32f),
+                    new Vector2(-0.38f, -0.34f)
+                }
+            },
         };
     }
 
